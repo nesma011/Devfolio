@@ -1,0 +1,250 @@
+
+/*for all sections*/
+div.title p
+{
+    position: relative;
+}
+div.title p::before
+{
+    content: '';
+position: absolute;
+width: 4%;
+height: 5px;
+bottom:-20px;
+left: 47%;
+background-color: #4495ec;
+}
+
+
+
+
+
+/*navpar*/
+.nav-link
+{
+    position: relative;
+}
+
+
+.nav-link::before
+{
+    content: '';
+   position: absolute;
+   width: 0%;
+   height: 3px;
+   bottom: 0;
+   left: 0;
+background-color: white;
+transition: width 1s ;
+}
+.nav-link:hover::before
+{
+    width: 100%;
+}
+
+ .nav-link.active
+{
+    position: relative;
+}
+ .nav-link.active:before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+ background-color: white;
+}
+
+/*section home*/
+.home
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.712) 0% 50% , rgba(0, 0, 0, 0.712) 50% 100%), url(../images/hero-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+div.home h1
+{
+    font-size: 70px;
+}
+
+
+/*section about*/
+
+div.about1 h2
+{
+    position: relative;
+}
+div.about1 h2::before
+{
+    content: '';
+position: absolute;
+width: 20%;
+height: 3px;
+bottom: 0;
+left: 0;
+background-color: #4495ec;
+}
+
+
+
+ 
+/*section services*/
+i.icons
+
+{
+    font-size: xx-large;
+    border: 8px solid #4495ec;
+    border-radius: 50%;
+    padding: 30px;
+    transition: all 1s;
+    
+}
+div.stylee:hover i.icons
+{
+    border:8px solid lightblue ;
+    color: #ffffff;
+    background-color:#4495ec ;
+}
+
+
+/*section excperience*/
+
+div.excperience
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+
+}
+div.layer1
+{
+    height:auto;
+}
+i.iconic
+{
+    
+    border:10px solid ;
+}
+
+
+/*section portfolio*/
+
+div.inner img
+{
+    transition: all 1s;
+}
+
+div.inner:hover img
+{
+    transform: scale(1.3);
+}
+
+
+/*section blog*/
+div.card-footer img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.span 
+{
+    position: relative;
+    text-align: center;
+    top: -30px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+}
+
+
+/*section contact*/
+i.ico
+
+{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #4495ec;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 1s;
+    
+}
+i.ico:hover 
+{
+    border:3px solid lightblue ;
+    color: #ffffff;
+    background-color: #4495ec;
+}
+
+
+section.contact
+{
+    background-image: linear-gradient(#4495ec91 0% 50%, #4495ec96  0% 50%) ,url(../images/overlay-bg.jpg);
+    background-size: cover;
+    min-height:100vh;
+    background-attachment: fixed; 
+}
+
+
+
+button.button1
+{
+    background-color: #4495ec ;
+    color: white;
+    
+}
+
+button.button1:hover
+{
+    box-shadow: 0 0 0 4px lightblue;
+    background-color: #4495ec;
+
+}
+
+/*section testimonial*/
+
+.testimonials {
+    background-image: linear-gradient( #4495eca9 0% 50%, #4495ecb9 0% 50%) ,url(../images/overlay-bg.jpg);
+    background-size: cover;
+    min-height:100vh;
+    background-attachment: fixed;   
+    color: white;
+  }
+  
+ 
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .slider__text {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  /*popup*/
+ 
+  section.pop a
+  {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    background-color: #4495ec;
+    border-radius:50% ;
+  }
+
+
+
+
+
+
+
+
+
